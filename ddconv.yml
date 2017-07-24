@@ -1,0 +1,39 @@
+# ddconv.yml
+# 這是以YAML記述，DDconv的設定檔案。
+# 「#」後面的文字將會被忽略。
+# -------------------------------------
+
+# 版本
+ddconvVersion: 1.0 # 必要。請勿修改本行。
+
+# 出版品的識別碼
+identifiers:
+ - content: fa44df69-7fee-4348-8582-523c3c7b0e25 # 請指定具體的識別碼。
+   identifier-type: uuid # 請指定為「uuid」或者「isbn」。
+
+# 書名
+titles:
+  - content: 抗爭防身手冊 # 請指定書名。（必要）
+
+# 製作者
+creators:
+  # 作者1 --------
+  - content: 社團法人台灣人權促進會 # 請指定作者等的名字。
+# 出版品所使用的語言（必要）
+language: zh-TW # 繁體中文＝zh_TW 簡體中文＝zh_CN 日文=ja、英文=en 等
+
+# 出版年月日
+date: 20160201 # 請以YYYYMMDD的格式指定。
+
+# 翻頁方向
+pageDirection: ltr # 左起右翻=ltr、右起左翻=rtl
+
+# EPUB輸出選項
+options:
+  titlepage: false # 自動生成扉頁 true|false
+  tocInSpine: true # 自動生成目錄頁 true|false
+  tocDisplayDepth: 2 # 目錄頁所呈現的目錄階層設定 1-6
+  displayLandmarksNav: true # 目錄頁是否呈現 true|falase
+  displayLoiNav: false # 目錄頁是否呈現圖片一覽
+  displayLotNav: false # 目錄頁是否呈現表格一覽 true|false
+  kepub: false # 是否使用供Kobo touch的副檔名「.kepub.epub」 true|false
