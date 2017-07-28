@@ -8,3 +8,10 @@
 # 授權
 
 本書以CC-BY-NC-ND 3.0（姓名標示-非商業性-禁止改作 3.0）台灣授權條款釋出。
+
+# 相關資源
+
+[Gitbook](https://www.gitbook.com/book/jrf-tw/protest-handbook/details)
+[Gumroad](https://gum.co/protest-handbook)
+[Google Play Book](https://goo.gl/cQ4utj)
+
