@@ -11,7 +11,6 @@
 
 # 相關資源
 
-[Gitbook](https://www.gitbook.com/book/jrf-tw/protest-handbook/details)
-[Gumroad](https://gum.co/protest-handbook)
-[Google Play Book](https://goo.gl/cQ4utj)
-
+* [Gitbook](https://www.gitbook.com/book/jrf-tw/protest-handbook/details)
+* [Gumroad](https://gum.co/protest-handbook)
+* [Google Play Book](https://goo.gl/cQ4utj)
